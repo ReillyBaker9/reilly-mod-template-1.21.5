@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "reillymod",
+	"version": "${version}",
+	"name": "Reilly Mod",
+	"description": "This is Reilly Baker's first mod. Behold!",
+	"authors": [
+		"Reilly B"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/ReillyBaker9/reillymod"
+	},
+	"license": "MIT",
+	"icon": "assets/reillymod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.reillyb.reillymod.ReillyMod"
+		],
+		"fabric-datagen": [
+			"net.reillyb.reillymod.ReillyModDataGenerator"
+		],
+		"client": [
+			"net.reillyb.reillymod.ReillyModClient"
+		]
+	},
+	"mixins": [
+		"reillymod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
