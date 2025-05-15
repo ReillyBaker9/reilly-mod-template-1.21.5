@@ -4,5 +4,7 @@
   "item.reillymod.pink_garnet_block": "Block of Pink Garnet",
   "block.reillymod,pink_garnet_block" : "Block of Pink Garnet",
   "item.reillymod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
-  "block.reillymod,raw_pink_garnet_block" : "Block of Raw Pink Garnet"
+  "block.reillymod,raw_pink_garnet_block" : "Block of Raw Pink Garnet",
+  "itemgroup.reillymod.pink_garnet_items" : "Pink Garnet Items",
+  "itemgroup.reillymod.pink_garnet_blocks" : "Pink Garnet Blocks"
 }
