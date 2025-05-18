@@ -1,0 +1,16 @@
+{
+  "tyoe": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "reillymod:pink_garnet"
+    },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "reillymod:pink_garnet_block"
+  }
+}

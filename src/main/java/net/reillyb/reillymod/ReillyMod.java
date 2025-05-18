@@ -14,9 +14,11 @@ public class ReillyMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+//		ReillyModDataGenerator.on
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		LOGGER.info("Hello Fabric world!");
 
 	}
 }
